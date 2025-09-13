@@ -1,22 +1,20 @@
 [versions]
-agp = "8.9.1"
-kotlin = "2.0.0"
-coreKtx = "1.15.0"
+agp = "8.13.0"
+kotlin = "2.2.20"
+coreKtx = "1.17.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
-lifecycleRuntimeKtx = "2.9.1"
+lifecycleRuntimeKtx = "2.9.3"
 activityCompose = "1.11.0"
 composeBom = "2025.09.00"
-hilt = "2.55"
-coroutines = "1.8.0"
-retrofit = "2.11.0"
-okhttp = "4.12.0"
-lifecycleViewmodelKtx = "2.9.1"
-lifecycleLivedataKtx = "2.9.1"
-lifecycleCommon = "2.9.1"
-sync = "1.0.0-alpha03"
-javapoet = "1.13.0"
+hilt = "2.57.1"
+coroutines = "1.10.2"
+retrofit = "3.0.0"
+okhttp = "5.1.0"
+lifecycleViewmodelKtx = "2.9.3"
+lifecycleLivedataKtx = "2.9.3"
+lifecycleCommon = "2.9.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -44,8 +42,6 @@ okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhtt
 androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
 androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
 androidx-lifecycle-common = { group = "androidx.lifecycle", name = "lifecycle-common", version.ref = "lifecycleCommon" }
-androidx-sync = { group = "androidx.sync", name = "sync", version.ref = "sync" }
-javapoet = { group = "com.squareup", name = "javapoet", version.ref = "javapoet" }
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

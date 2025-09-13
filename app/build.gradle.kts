@@ -17,7 +17,7 @@ android {
     defaultConfig {
         applicationId = "com.submate"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "1.0"
 
@@ -73,5 +73,4 @@ dependencies {
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
 
-//    implementation(libs.javapoet)
 }
